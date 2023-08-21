@@ -1,0 +1,201 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+body{
+  font-family: 'DM Sans';
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.banner-img{display: block;}
+.banner-img-mob{display: none;}
+@media only screen and (max-width:767px){
+.navbar>.container{padding-right:25px;} 
+.navbar-toggler:focus{box-shadow: none;}
+.navbar-toggler {color:#15ad03;border-color: #15ad03;}
+.side-icons {bottom: 50px;left: -20px;z-index: 111;}
+.btn-area{padding-top: 10px;} 
+/* .banner-img {width: 95%;} */
+.banner-img{display: none;}
+.banner-img-mob{display: block;top: -60px;position: absolute;width: 100%;z-index: 111;object-fit: cover;object-position: center;left: 12px;}
+.laptop-hold{text-align: center;}
+.laptop-bg::before {    width: 500px;height: 460px;}
+.laptop-bg {margin-bottom: 65px;}
+.main-frame {border-right:0;border-bottom: 1px solid #E1E1E1;text-align: center;}
+.main-frame:last-child{border-bottom: 0;}
+.icon {margin: 20px auto 0;}
+.team-members{text-align: center;}
+.laptop-hold h2, .team-members h2, .news-text-frame h2{font-size: 26px;}
+.news-text-frame{padding: 15px; text-align: center;}
+.news-text-frame .form-control{margin-bottom: 15px;}
+.footer-links ul{padding-left: 0;}
+.footer-links ul li {display: block;line-height: 35px;}
+.address-bar {text-align: center;line-height: 35px;}
+.footer-bottom p{font-size: 13px; font-weight: 500;}
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+.btn-area{padding-top: 10px;} 
+.banner-img {width: 95%;top: -50px;}
+.banner-img-mob{display: none;}
+}
+
+@media only screen and (min-width:992px) and (max-width:1024px){
+  .banner-img {width: 91%;}
+  .banner-img-mob{display: none;}
+  .about-us h1, .about-us p{padding-left: 50px;}
+  .img-caption{width: 91%; padding: 10px;}
+  .banner-img {top: -80px;}
+}
+@media only screen and (min-width:1025px) and (max-width:1199px){
+  .banner-img {width: 85.5%;}
+  .banner-img-mob{display: none;}
+  .about-us h1, .about-us p{padding-left: 50px;}
+  .img-caption{width: 91%;padding: 10px;}
+}
+@media only screen and (min-width:1200px){
+.banner-img {width: 92%;}
+.about-us h1, .about-us p{padding-left: 50px;}
+}
+@media only screen and (min-width:1300px){
+  .banner-img {width: 89%;}
+  .about-us h1, .about-us p{padding-left: 50px;}
+}
+
+@media only screen and (min-width:1400px){
+  .banner-img {width: 92%;}
+  .about-us h1, .about-us p{padding-left: 50px;}
+}
+
+@media only screen and (min-width:1500px){
+  .banner-img {width: 90%;}
+  .about-us h1, .about-us p{padding-left: 50px;}
+}
+@media only screen and (min-width:1600px){
+  .banner-img {width: 87%;}
+  .about-us h1, .about-us p{padding-left: 50px;}
+}
+@media only screen and (min-width:1700px){
+  .banner-img {width: 85%;}
+  .about-us h1, .about-us p{padding-left: 50px;}
+}
+@media only screen and (min-width:1800px){
+  .banner-img {width: 83%;}
+  .about-us h1, .about-us p{padding-left: 50px;}
+}
+@media only screen and (min-width:1900px){
+  .banner-img {width: 81.5%;}
+  .about-us h1, .about-us p{padding-left: 50px;}
+}
+
+@media only screen and (min-width:2100px){
+  .banner-img {width: 78.5%;}
+  .about-us h1, .about-us p{padding-left: 50px;}
+}
+@media only screen and (min-width:2200px){
+  .banner-img {width: 73.5%;}
+  .about-us h1, .about-us p{padding-left: 50px;}
+}
+
+.modal_custom{
+  border-radius: 150px;
+}
+
+.custom_input{
+  width: 100%;
+  padding: 10px 20px;
+}
+
+
+.custom_textarea{
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.modal-body-custom{
+  background-color: #c8d7e2;
+  background-image: url(./assets/images/modalback.avif);
+  padding: 2rem;
+
+}
+
+.modal-body-custom label{
+font-size: 15px;
+
+}
+
+
+.alldisplayflex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alldisplayflex img {
+  max-width: 150px;
+}
+
+
+
+.optionSelection{
+
+    color: grey;
+    outline: none;
+    border: 1px solid #ced4da;
+
+}
+
+.app{
+  overflow-x: hidden;
+  
+}
+
+@media only screen and (max-width:767px){
+  .alldisplayflex img {
+    max-width: 100px;
+}
+}
+
+@media only screen and (max-width:567px){
+  .alldisplayflex img {
+    max-width: 75px;
+}
+}
+
+@media only screen and (max-width:467px){
+  .alldisplayflex img {
+    max-width: 50px;
+}
+}

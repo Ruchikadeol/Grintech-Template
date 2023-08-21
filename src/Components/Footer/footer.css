@@ -1,0 +1,16 @@
+.footer{background-repeat: no-repeat; background-position: center center; background-size: cover;}
+.footer-links ul{padding-top:40px; padding-bottom: 20px;}
+.footer-links ul li{list-style: none; display: inline;}
+.footer-links ul li a{color:#fff; text-decoration: none; padding: 10px 35px; transition: all linear 0.3s;}
+.footer-links ul li a:hover{color: #0078D6;}
+.address-bar{padding: 30px 0;}
+.address-bar span{color: #fff; font-size: 15px;}
+.address-bar span a{color: #fff; text-decoration: none;}
+.f-links li{list-style: none; display: inline;}
+.f-links .iconify {font-size: 40px;color: #fff; border: 1px solid #fff;border-radius: 50%;margin-left: 10px; padding: 2px;transition: all linear 0.3s;}
+.f-links .iconify:hover{color: #0078D6; border-color: #0078D6;}
+.ficon{padding-right: 10px;}
+.ficon .iconify{ color: #0078D6;}
+
+.footer-bottom{background-color: #0078D6; text-align: center; padding:10px 0;}
+.footer-bottom p{font-size: 14px; color: #fff; margin-bottom: 0; font-weight: 600;}

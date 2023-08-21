@@ -1,0 +1,30 @@
+.testimonial-slider{text-align: center; background-repeat: no-repeat; background-position: center bottom; background-size: cover; padding: 70px 0 130px;}
+.main-slide h5{color:#0078D6; font-weight: 600; line-height: 30px;}
+.main-slide small{color: #1b1b1b;}
+.main-slide p{color:#1b1b1b; font-weight: 500; font-size: 16px; line-height: 24px;}
+.quote-area{position: relative;}
+.q-lt{position: absolute;left:10%; top: 50%; width: 130px;}
+.q-rt{position: absolute; right:10%; bottom:25%; width: 130px;}
+.rating-color{color:#fbc634;}
+.ratings i{font-size:12px;}
+.quote-area .swiper{padding-bottom: 100px;}
+.quote-area .swiper-button-prev{left:46%; top: 90%; width: 40px; height: 40px; border-radius: 50%;background-color: #0078D6;box-shadow: 0 0 0 5px rgba(0, 120, 214, 0.2);}
+.quote-area .swiper-button-next{right:46%; top: 90%; width: 40px; height: 40px; border-radius: 50%;background-color: #0078D6;box-shadow: 0 0 0 5px rgba(0, 120, 214, 0.2);}
+.quote-area .swiper-button-prev::after{content:"\27F5"; position: absolute; font-size: 20px; color: #fff;}
+.quote-area .swiper-button-next::after{content:"\27F6"; position: absolute; font-size: 20px; color: #fff;}
+.quote-area .swiper-button-next.swiper-button-disabled,
+.quote-area .swiper-button-prev.swiper-button-disabled {
+ opacity:.35;
+ cursor:auto;
+ pointer-events:none
+}
+.quote-area .swiper-button-next.swiper-button-hidden,
+.quote-area .swiper-button-prev.swiper-button-hidden {
+ opacity:0;
+ cursor:auto;
+ pointer-events:none
+}
+.quote-area .swiper-navigation-disabled .swiper-button-next,
+.quote-area .swiper-navigation-disabled .swiper-button-prev {
+ display:none!important
+}

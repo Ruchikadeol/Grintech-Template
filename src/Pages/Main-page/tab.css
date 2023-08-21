@@ -1,0 +1,125 @@
+.services-home {text-align: center;}
+.services-home h2{font-size: 38px; font-weight: 700; line-height: 49px;}
+.services-home p{font-size: 18px; font-weight: 400; color: #1b1b1b;}
+ul#pills-tab {justify-content: center;}
+section#home-our-services{height: 400px;background-size: contain;
+background-image: url(../../assets/images/tab-bg.webp);
+height: max-content;
+}
+/* button#pills-home-tab {} */
+
+ul#pills-tab button {background-color: #c8d7e2;box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.25);border-radius: 10px;color: #1b1b1b;position: relative;width: 170px;height: 68px;;}
+ul#pills-tab button h6{font-size: 15px; margin-top: -10px;}
+ul#pills-tab button svg {position: absolute;z-index: 111 !important;font-size: 40px;left: 37%;}
+.nav-link.active img.arrow-first{display: none;}
+img.arrow-first2{display: none;}
+.nav-link.active img.arrow-first2{display: inline-block !important;text-align: center;}
+ul#pills-tab {justify-content: space-between;}
+ul#pills-tab button.active {background: linear-gradient(124.86deg, #014072 2.97%, #47789F 114.72%);color: #fff;}
+.our-services ul#pills-tab {margin-top: -40px;}
+
+ul#pills-tab .nav-link img {
+  position: absolute;
+  left: 63px;
+  top: 48px;
+}
+.new-tab-button {margin-top: 20px;}
+.new-tab-button a {color: #fff;font-size: 14px;text-transform: uppercase;font-weight: 700; text-decoration: none;}
+span.new-get {margin-left: 10px; color:#1b1b1b; background-color: #fff; width: 25px; height: 25px; line-height: 22px; border-radius: 50%; display: inline-block; text-align: center;animation: pulse-animation 2s infinite;}
+div#pills-tabContent {color: #fff;padding: 50px 0px;}
+ul.img-section {padding: 0;}
+.tab-content-img img {
+  width: 69px;
+  height: 69px;
+  object-fit: cover;
+}
+ul.img-section {display: flex;justify-content: space-around;}
+ul.img-section li {display: block;}
+.tab-content-img {padding-top: 60px;}
+.tab-content-img p{padding-top: 15px;  font-weight: 500; text-align: center; font-size: 15px;}
+.tab-content-box{text-align: left;}
+.tab-content-box h2{font-size: 30px; font-weight: 700;}
+@keyframes pulse-animation2 {
+    0% {
+      box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.2);
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
+    }
+  }
+  
+
+  @media only screen and (max-width:1200px){
+    ul#pills-tab button {
+      background-color: #c8d7e2;
+      box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      color: #1b1b1b;
+      position: relative;
+      width: 150px;
+      height: 60px;
+      margin-top: 0px;
+  }
+
+  ul#pills-tab button h6 {
+    font-size: 13px;
+    margin-top: -10px;
+}
+
+ul#pills-tab .nav-link img {
+  position: absolute;
+  left: 53px;
+  top: 40px;
+}
+
+
+
+  }
+
+
+  @media only screen and (max-width:991px){
+    ul#pills-tab button  {
+   
+      margin-top: 30px;
+  }
+
+
+}
+
+
+
+@media only screen and (max-width:767px){
+  .tab-content{
+ 
+  }
+
+ .our-services{
+  height: max-content;
+ }
+
+
+}
+
+@media only screen and (max-width:567px){
+  .tab-content-img p {
+    padding-top: 15px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 13px;
+}
+
+.tab-content-img img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.nav-pills{
+  padding:0 30px;
+}
+
+.tab-content-box {
+    text-align: center;
+}
+
+}

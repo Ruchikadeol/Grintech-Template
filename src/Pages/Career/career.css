@@ -1,0 +1,69 @@
+.career-main{
+    padding: 80px 0 0 0;
+    height: 300px;
+    background-image: url(../../assets/images/banner2dark.jpg);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+   .job-posting{
+    height: max-content;
+padding: 30px 0 0 0;
+   }
+
+
+
+   .stage {
+ 
+    display: flex;
+    height: 100%;
+  
+}
+.box {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin: 0 auto 0 auto;
+    transform-origin: top;
+}
+.bounce-2 {
+    animation-name: bounce-2;
+    animation-timing-function: ease-in-out;
+}
+@keyframes bounce-2 {
+    0%   { transform: translateY(-90px); }
+    50%  { transform: translateY(-100px); }
+    100% { transform: translateY(-90px); }
+}
+
+.jobopeningeven{
+    background-color: #36546e;
+    color: white;
+
+}
+
+.job-posting ul li{
+
+ list-style-type: disc;
+   
+
+} 
+
+.jobpostingbtn{
+  background-color: #177a0e;
+  padding: 8px;
+  color: white;
+  border: none;
+  outline: none;
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+@media only screen and (max-width:577px){
+    .job-posting, .career-main{
+        padding: 30px;
+    }
+}
