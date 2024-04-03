@@ -37,6 +37,7 @@ import Branding from './Pages/Services/Branding.js';
 import Prrm from './Pages/Services/Prrm.js';
 import Uiux from './Pages/Services/Uiux.js';
 import Gallery from './Pages/Gallery/Gallery.js';
+import Myslider from './Components/Myslider.js';
 class App extends React.Component {
   render() {
 
@@ -79,6 +80,9 @@ class App extends React.Component {
             <Route path='/careers' element={<Career />}></Route>
             <Route path='/our-services-core-php' element={<CorePhp />}></Route>
             <Route path='/gallery' element={<Gallery />}></Route>
+            <Route path='/myslider' element={Myslider}></Route>
+
+
         
             
           </Routes>
